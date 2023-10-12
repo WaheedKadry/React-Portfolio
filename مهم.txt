@@ -1,0 +1,25 @@
+موقع قص الصوره
+
+https://crop-circle.imageonline.co/
+
+https://icomoon.io/
+
+https://lottiefiles.com/
+
+https://help.formspree.io/hc/en-us/articles/360055613373-The-Formspree-React-library
+
+
+ npm i lottie-react
+https://lottiereact.com/
+https://lottiefiles.com/
+
+https://www.framer.com/motion/
+
+
+
+
+
+
+
+
+

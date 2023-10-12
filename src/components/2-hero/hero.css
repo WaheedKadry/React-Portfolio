@@ -1,0 +1,107 @@
+/* ===========================
+ table of contents
+==============================
+1. Left Section
+2. Right Section ==> animation*/
+
+section.hero {
+  margin-top: 3rem;
+}
+
+/* ========================
+    1. Left Section
+=========================== */
+section.hero .parent-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 150px;
+}
+
+section.hero .left-section {
+  width: 70%;
+  text-align: left;
+}
+
+section.hero .icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+section.hero .avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+  text-align: left;
+}
+
+section.hero p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+}
+
+section.hero .all-icons {
+  font-size: 1.3rem;
+  gap: 1.5rem;
+  color: var(--subtitle);
+}
+
+section.hero .all-icons .icon:hover {
+  font-size: 1.4rem;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
+
+/* ===================================
+    2. Right Section ==> animation
+====================================== */
+section.hero .animation {
+  width: 50%;
+  height: 100%;
+  margin-top: 1rem;
+}
+@media (max-width: 700px) {
+  section.hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  section.hero h1.title {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 30px;
+  }
+  section.hero p.sub-title {
+    text-align: center;
+  }
+  section.hero .all-icons,
+  section.hero .parent-avatar.flex {
+    justify-content: center;
+  }
+  section.hero .animation {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  section.hero h1.title.t1,
+  section.hero h1.title.t2 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 500px) {
+
+  section.hero h1.title.t2 {
+    font-size: 1.7rem;
+  }
+}
