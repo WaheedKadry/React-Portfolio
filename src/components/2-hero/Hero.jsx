@@ -4,13 +4,14 @@ import Lottie from "lottie-react";
 import landingPageAnimation from "../../../public/animation/landing page.json";
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import waheedImg from "../../../public/me.png";
 const Hero = () => {
   const lottieRef = useRef();
   return (
     <section className="hero flex">
       <div className="left-section  ">
         <div className="parent-avatar flex">
-          <motion.img src="../../../public/me.png" className="avatar" alt="" 
+          <motion.img src={waheedImg} className="avatar" alt="" 
                 initial={{transform:"scale(0)", opacity:0}}
         animate={{transform:"scale(1)", opacity:1}}
         transition={{damping:6, type:"spring", stiffness:100}}
